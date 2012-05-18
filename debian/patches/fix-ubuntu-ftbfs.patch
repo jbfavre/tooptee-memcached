@@ -1,0 +1,13 @@
+Index: memcached-1.4.2/memcached.c
+===================================================================
+--- memcached-1.4.2.orig/memcached.c	2010-04-17 03:27:20.155037988 +0100
++++ memcached-1.4.2/memcached.c	2010-04-17 03:28:00.506769722 +0100
+@@ -2922,7 +2922,7 @@
+                 }
+ 
+                 if (ptr - c->rcurr > 100 ||
+-			strcmp(ptr, "get ") && strcmp(ptr, "gets ")) {
++			(strcmp(ptr, "get ") && strcmp(ptr, "gets "))) {
+                     conn_set_state(c, conn_closing);
+                     return 1;
+                 }
