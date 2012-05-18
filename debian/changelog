@@ -1,32 +1,8 @@
-memcached (1.4.13-1~tooptee1) lucid; urgency=low
+memcached (1.4.13-1~tooptee10+1) lucid; urgency=low
 
   * dotBuntu build for Ubuntu 10.04 Lucid
 
  -- Jean Baptiste Favre <jbfavre@dotbuntu.org>  Sun, 13 May 2012 11:36:20 +0200
-
-memcached (1.4.13-1~iscoolent1) lucid; urgency=low
-
-  * lucid
-
- -- Jean Baptiste Favre <jean-baptiste.favre@iscool-e.com>  Thu, 16 Feb 2012 15:31:29 +0100
-
-memcached (1.4.10-1~iscoolent1) lucid; urgency=low
-
-  * lucid
-
- -- Jean Baptiste Favre <jean-baptiste.favre@iscool-e.com>  Fri, 25 Nov 2011 15:13:53 +0100
-
-memcached (1.4.7-1~iscoolent1) lucid; urgency=low
-
-  * Upstream backport to Lucid
-
- -- Jean Baptiste Favre <jean-baptiste.favre@iscool-e.com>  Wed, 14 Sep 2011 16:13:37 +0200
-
-memcached (1.4.6-1~iscoolent1) lucid; urgency=low
-
-  * Upstream bakport to Lucid
-
- -- Jean Baptiste Favre <jean-baptiste.favre@iscool-e.com>  Fri, 29 Jul 2011 15:45:38 +0200
 
 memcached (1.4.2-1ubuntu3) lucid; urgency=low
 
