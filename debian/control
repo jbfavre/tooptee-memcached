@@ -1,7 +1,7 @@
 Source: memcached
 Section: web
 Priority: optional
-Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Maintainer: Jean Baptiste Favre <ubuntu@jbfavre.org>
 XSBC-Original-Maintainer: David Martínez Moreno <ender@debian.org>
 Build-Depends: debhelper (>= 6), libevent-dev, quilt (>= 0.46-7)
 Homepage: http://www.danga.com/memcached/
